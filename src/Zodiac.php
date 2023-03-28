@@ -29,4 +29,28 @@ class Zodiac
             });
         }
     }
+
+    /**
+     * Convert the given date to a zodiac year
+     */
+    public static function yearFromDate(Carbon $date): int
+    {
+        return Year::fromDate($date);
+    }
+
+    /**
+     * Convert the given date to a zodiac element
+     */
+    public static function elementFromDate(Carbon $date): Element
+    {
+        return Element::fromDate($date);
+    }
+
+    /**
+     * Convert the given date to the zodiac sign
+     */
+    public static function signFromDate(Carbon $date): Sign
+    {
+        return Sign::fromDate($date);
+    }
 }

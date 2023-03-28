@@ -3,11 +3,12 @@
 namespace BradieTilley\Zodiac;
 
 use Carbon\Carbon;
+use InvalidArgumentException;
 
 class Year
 {
     /**
-     * Date of New Years
+     * Date of Chinese New Year(s)
      */
     public const THRESHOLDS = [
         1920 => '1920-02-20',
@@ -124,12 +125,38 @@ class Year
         2031 => '2031-01-23',
     ];
 
+    public const MIN_SUPPORTED = 1920;
+
+    public const MAX_SUPPORTED = 2031;
+
     /**
      * Get the given Chinese Year from the given Gregorian date
      */
     public static function fromDate(Carbon $date): int
     {
         $dateYmd = $date->toDateString();
+
+        $min = self::THRESHOLDS[self::MIN_SUPPORTED];
+        $max = self::THRESHOLDS[self::MAX_SUPPORTED];
+
+        if ($date < $min) {
+            throw new InvalidArgumentException(
+                sprintf(
+                    'Minimum supported zodiac date is %s',
+                    $min, 
+                ),
+            );
+        }
+
+        if ($date > $max) {
+            throw new InvalidArgumentException(
+                sprintf(
+                    'Maximum supported zodiac date is %s',
+                    $max, 
+                ),
+            );
+        }
+
         $previous = 1919;
 
         foreach (self::THRESHOLDS as $year => $match) {
@@ -140,6 +167,10 @@ class Year
             $previous = $year;
         }
 
-        throw new \Exception('Unsupported date');
+        if ($date > $max) {
+            throw new InvalidArgumentException(
+                'Unsupported date',
+            );
+        }
     }
 }

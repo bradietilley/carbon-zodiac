@@ -2,6 +2,7 @@
 
 namespace BradieTilley\Zodiac;
 
+use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
 enum Sign: string
@@ -37,6 +38,9 @@ enum Sign: string
         ]);
     }
 
+    /**
+     * Convert a given zodiac year to a Sign
+     */
     public static function fromYear(int $year): Sign
     {
         if ($year < 1924) {
@@ -59,6 +63,17 @@ enum Sign: string
         return $steps[$year];
     }
 
+    /**
+     * Convert any given date to a Sign
+     */
+    public static function fromDate(Carbon $date): Sign
+    {
+        return self::fromYear(Year::fromDate($date));
+    }
+
+    /**
+     * Get the human readable English label for this sign
+     */
     public function label(): string
     {
         return match ($this) {
@@ -77,6 +92,9 @@ enum Sign: string
         };
     }
 
+    /**
+     * Get the sign's Yin or Yang state 
+     */
     public function yinYang(): string
     {
         return match ($this) {
@@ -95,6 +113,9 @@ enum Sign: string
         };
     }
 
+    /**
+     * Get the sign's direction
+     */
     public function direction(): string
     {
         return match ($this) {
@@ -113,6 +134,9 @@ enum Sign: string
         };
     }
 
+    /**
+     * Get the sign's season
+     */
     public function season(): string
     {
         return match ($this) {
@@ -131,6 +155,9 @@ enum Sign: string
         };
     }
 
+    /**
+     * Get the sign's fixed element
+     */
     public function fixedElement(): Element
     {
         return match ($this) {
@@ -149,6 +176,9 @@ enum Sign: string
         };
     }
 
+    /**
+     * Get the sign's trine
+     */
     public function trine(): int
     {
         return match ($this) {

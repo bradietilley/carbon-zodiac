@@ -2,6 +2,7 @@
 
 namespace BradieTilley\Zodiac;
 
+use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
 enum Element: string
@@ -24,7 +25,7 @@ enum Element: string
     }
 
     /**
-     * Get the element from the Chinese Year.
+     * Convert a given zodiac year to an Element
      */
     public static function fromYear(int $year): Element
     {
@@ -51,5 +52,21 @@ enum Element: string
          */
 
         return $steps[$year];
+    }
+
+    /**
+     * Convert any given date to a Sign
+     */
+    public static function fromDate(Carbon $date): Element
+    {
+        return self::fromYear(Year::fromDate($date));
+    }
+
+    /**
+     * Get the human readable English label of this Element
+     */
+    public function label(): string
+    {
+        return ucfirst($this->value);
     }
 }

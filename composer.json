@@ -1,6 +1,6 @@
 {
-    "name": "bradietilley/zodiac",
-    "description": "Convert to and from Zodiac",
+    "name": "bradietilley/carbon-zodiac",
+    "description": "A Carbon-based (Chinese) Zodiac package",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -10,10 +10,10 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "^9.51"
+        "illuminate/support": "^10.0"
     },
     "require-dev": {
-        "pestphp/pest": "^1.22"
+        "pestphp/pest": "^2.0"
     },
     "config": {
         "allow-plugins": {

@@ -8,6 +8,10 @@ A simple package that provides an interface for converting dates to Zodiac signs
 composer require bradietilley/carbon-zodiac
 ```
 
+### Limitations
+
+Currently, only dates between 1901 and 2033 are supported. If you'd like to utilise this package for dates beyond that, please make a pull request which includes your requested updates to the `Year::THRESHOLDS` constant, and cite your source(s).
+
 ### Usage
 
 You may either use the `Carbon` macros, use a centralized class, or use each class/enum directly. Here are a few examples:

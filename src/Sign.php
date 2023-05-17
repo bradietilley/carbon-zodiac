@@ -20,6 +20,11 @@ enum Sign: string
     case DOG = 'dog';
     case PIG = 'pig';
 
+    /**
+     * Get all signs in the order the occur
+     *
+     * @return Collection<int, Sign>
+     */
     public static function ordered(): Collection
     {
         return Collection::make([
@@ -57,8 +62,12 @@ enum Sign: string
          */
         $year = $year % 12;
         /**
-         * @var int (0-11) $year
+         * @var int $year (0-11)
          */
+
+        if (! isset($steps[$year])) {
+            throw new \Exception('Unsupported date');
+        }
 
         return $steps[$year];
     }

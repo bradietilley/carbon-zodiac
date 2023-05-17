@@ -6,26 +6,32 @@ use Carbon\Carbon;
 
 class Zodiac
 {
+    /**
+     * Boot the carbon macros
+     */
     public static function boot(): void
     {
         if (! Carbon::hasMacro('zodiacYear')) {
             Carbon::macro('zodiacYear', function (): int {
                 /** @var Carbon $this */
-                return Year::fromDate($this->copy());
+                /** @phpstan-ignore-next-line */
+                return Zodiac::yearFromDate($this);
             });
         }
 
         if (! Carbon::hasMacro('zodiacElement')) {
             Carbon::macro('zodiacElement', function (): Element {
                 /** @var Carbon $this */
-                return Element::fromYear($this->copy()->zodiacYear());
+                /** @phpstan-ignore-next-line */
+                return Zodiac::elementFromDate($this);
             });
         }
 
         if (! Carbon::hasMacro('zodiacSign')) {
             Carbon::macro('zodiacSign', function (): Sign {
                 /** @var Carbon $this */
-                return Sign::fromYear($this->copy()->zodiacYear());
+                /** @phpstan-ignore-next-line */
+                return Zodiac::signFromDate($this);
             });
         }
     }

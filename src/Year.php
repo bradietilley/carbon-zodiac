@@ -201,10 +201,6 @@ class Year
             $previous = $year;
         }
 
-        if ($date > $max) {
-            throw new InvalidArgumentException(
-                'Unsupported date',
-            );
-        }
+        return $previous;
     }
 }

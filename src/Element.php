@@ -13,6 +13,11 @@ enum Element: string
     case METAL = 'metal';
     case WATER = 'water';
 
+    /**
+     * Get all elements in the order the occur
+     *
+     * @return Collection<int, Element>
+     */
     public static function ordered(): Collection
     {
         return Collection::make([
@@ -40,6 +45,8 @@ enum Element: string
             $steps[] = $element;
         }
 
+        /** @var array<int, Element> $steps */
+
         // Offset from available start
         $year = $year - 1924;
 
@@ -48,8 +55,12 @@ enum Element: string
          */
         $year = $year % 10;
         /**
-         * @var int (0-9) $year
+         * @var int $year (0-9)
          */
+
+        if (! isset($steps[$year])) {
+            throw new \Exception('Unsupported date');
+        }
 
         return $steps[$year];
     }

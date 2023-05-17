@@ -1,6 +1,6 @@
 {
     "name": "bradietilley/carbon-zodiac",
-    "description": "A Carbon-based (Chinese) Zodiac package",
+    "description": "A Zodiac Carbon package",
     "type": "library",
     "license": "MIT",
     "autoload": {

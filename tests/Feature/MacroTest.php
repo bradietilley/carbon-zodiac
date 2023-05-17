@@ -14,7 +14,7 @@ test('Carbon Macro zodiacYear', function (string $date, int $year) {
 
 test('Carbon Macro zodiacElement', function (int $year, string $element) {
     Zodiac::boot();
-    
+
     $element = Element::from($element);
 
     $date = Carbon::parse("{$year}-06-01");
@@ -23,9 +23,9 @@ test('Carbon Macro zodiacElement', function (int $year, string $element) {
 
 test('Carbon Macro zodiacSign', function (int $year, string $sign) {
     Zodiac::boot();
-    
+
     $sign = Sign::from($sign);
-    
+
     $date = Carbon::parse("{$year}-06-01");
     expect($date->zodiacSign())->toBe($sign);
 })->with(getZodiacDatasetSigns());

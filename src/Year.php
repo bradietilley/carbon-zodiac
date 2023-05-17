@@ -20,7 +20,7 @@ class Year
         1907 => '1907-02-13', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1907e.pdf
         1908 => '1908-02-02', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1908e.pdf
         1909 => '1909-01-22', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1909e.pdf
-        
+
         1910 => '1910-02-10', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1910e.pdf
         1911 => '1911-01-30', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1911e.pdf
         1912 => '1912-02-18', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1912e.pdf
@@ -31,7 +31,7 @@ class Year
         1917 => '1917-01-23', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1917e.pdf
         1918 => '1918-02-11', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1918e.pdf
         1919 => '1919-02-01', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1919e.pdf
-        
+
         1920 => '1920-02-20', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1920e.pdf
         1921 => '1921-02-08', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1921e.pdf
         1922 => '1922-01-28', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1922e.pdf
@@ -42,7 +42,7 @@ class Year
         1927 => '1927-02-02', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1927e.pdf
         1928 => '1928-01-23', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1928e.pdf
         1929 => '1929-02-10', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1929e.pdf
-        
+
         1930 => '1930-01-30', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1930e.pdf
         1931 => '1931-02-17', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1931e.pdf
         1932 => '1932-02-06', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1932e.pdf
@@ -53,7 +53,7 @@ class Year
         1937 => '1937-02-11', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1937e.pdf
         1938 => '1938-01-31', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1938e.pdf
         1939 => '1939-02-19', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1939e.pdf
-        
+
         1940 => '1940-02-08', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1940e.pdf
         1941 => '1941-01-27', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1941e.pdf
         1942 => '1942-02-15', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1942e.pdf
@@ -64,7 +64,7 @@ class Year
         1947 => '1947-01-22', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1947e.pdf
         1948 => '1948-02-10', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1948e.pdf
         1949 => '1949-01-29', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1949e.pdf
-        
+
         1950 => '1950-02-17', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1950e.pdf
         1951 => '1951-02-06', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1951e.pdf
         1952 => '1952-01-27', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1952e.pdf
@@ -75,7 +75,7 @@ class Year
         1957 => '1957-01-31', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1957e.pdf
         1958 => '1958-02-18', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1958e.pdf
         1959 => '1959-02-08', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1959e.pdf
-        
+
         1960 => '1960-01-28', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1960e.pdf
         1961 => '1961-02-15', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1961e.pdf
         1962 => '1962-02-05', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1962e.pdf
@@ -86,7 +86,7 @@ class Year
         1967 => '1967-02-09', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1967e.pdf
         1968 => '1968-01-30', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1968e.pdf
         1969 => '1969-02-17', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1969e.pdf
-        
+
         1970 => '1970-02-06', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1970e.pdf
         1971 => '1971-01-27', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1971e.pdf
         1972 => '1972-02-15', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1972e.pdf
@@ -97,7 +97,7 @@ class Year
         1977 => '1977-02-18', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1977e.pdf
         1978 => '1978-02-07', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1978e.pdf
         1979 => '1979-01-28', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1979e.pdf
-        
+
         1980 => '1980-02-16', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1980e.pdf
         1981 => '1981-02-05', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1981e.pdf
         1982 => '1982-01-25', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1982e.pdf
@@ -108,7 +108,7 @@ class Year
         1987 => '1987-01-29', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1987e.pdf
         1988 => '1988-02-17', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1988e.pdf
         1989 => '1989-02-06', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1989e.pdf
-        
+
         1990 => '1990-01-27', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1990e.pdf
         1991 => '1991-02-15', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1991e.pdf
         1992 => '1992-02-04', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1992e.pdf
@@ -119,7 +119,7 @@ class Year
         1997 => '1997-02-07', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1997e.pdf
         1998 => '1998-01-28', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1998e.pdf
         1999 => '1999-02-16', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1999e.pdf
-        
+
         2000 => '2000-02-05', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2000e.pdf
         2001 => '2001-01-24', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2001e.pdf
         2002 => '2002-02-12', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2002e.pdf
@@ -130,7 +130,7 @@ class Year
         2007 => '2007-02-18', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2007e.pdf
         2008 => '2008-02-07', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2008e.pdf
         2009 => '2009-01-26', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2009e.pdf
-        
+
         2010 => '2010-02-14', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2010e.pdf
         2011 => '2011-02-03', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2011e.pdf
         2012 => '2012-01-23', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2012e.pdf
@@ -141,7 +141,7 @@ class Year
         2017 => '2017-01-28', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2017e.pdf
         2018 => '2018-02-16', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2018e.pdf
         2019 => '2019-02-05', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2019e.pdf
-        
+
         2020 => '2020-01-25', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2020e.pdf
         2021 => '2021-02-12', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2021e.pdf
         2022 => '2022-02-01', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2022e.pdf
@@ -152,7 +152,7 @@ class Year
         2027 => '2027-02-06', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2027e.pdf
         2028 => '2028-01-26', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2028e.pdf
         2029 => '2029-02-13', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2029e.pdf
-        
+
         2030 => '2030-02-03', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2030e.pdf
         2031 => '2031-01-23', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2031e.pdf
         2032 => '2032-02-11', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2032e.pdf
@@ -177,7 +177,7 @@ class Year
             throw new InvalidArgumentException(
                 sprintf(
                     'Minimum supported zodiac date is %s',
-                    $min, 
+                    $min,
                 ),
             );
         }
@@ -186,7 +186,7 @@ class Year
             throw new InvalidArgumentException(
                 sprintf(
                     'Maximum supported zodiac date is %s',
-                    $max, 
+                    $max,
                 ),
             );
         }

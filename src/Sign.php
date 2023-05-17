@@ -93,7 +93,7 @@ enum Sign: string
     }
 
     /**
-     * Get the sign's Yin or Yang state 
+     * Get the sign's Yin or Yang state
      */
     public function yinYang(): string
     {

@@ -201,6 +201,7 @@ class Year
             $previous = $year;
         }
 
-        return $previous;
+        // Should not happen
+        throw new InvalidArgumentException('Unsupported zodiac date');
     }
 }

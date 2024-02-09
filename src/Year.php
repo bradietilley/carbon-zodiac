@@ -213,7 +213,7 @@ class Year
         }
 
         if ($date > $max) {
-            throw UnsupportedZodiacDateException::tooHigh($date);
+            throw UnsupportedZodiacDateException::exceedsMaximum($date);
         }
     }
 

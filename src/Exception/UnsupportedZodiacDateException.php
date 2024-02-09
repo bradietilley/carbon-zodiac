@@ -20,7 +20,7 @@ class UnsupportedZodiacDateException extends InvalidArgumentException
         );
     }
 
-    public static function tooHigh(Carbon|int $date): self
+    public static function exceedsMaximum(Carbon|int $date): self
     {
         return new self(
             sprintf(

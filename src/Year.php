@@ -176,10 +176,11 @@ class Year
     public static function fromDate(Carbon $date): Year
     {
         self::validate($date);
-
         $dateYmd = $date->toDateString();
+
         $previousYear = self::MIN_SUPPORTED;
-        $previousDate = self::MIN_SUPPORTED;
+        /** @var string $previousDate */
+        $previousDate = self::THRESHOLDS[self::MIN_SUPPORTED];
 
         foreach (self::THRESHOLDS as $year => $match) {
             if ($dateYmd < $match) {

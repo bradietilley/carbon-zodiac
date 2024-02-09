@@ -2,7 +2,7 @@
 
 namespace BradieTilley\Zodiac\Exception;
 
-use BradieTilley\Zodiac\Year;
+use BradieTilley\Zodiac\NewYears;
 use Carbon\Carbon;
 use DateTimeInterface;
 use InvalidArgumentException;
@@ -15,7 +15,7 @@ class UnsupportedZodiacDateException extends InvalidArgumentException
             sprintf(
                 'The zodiac information for `%s` cannot be determined as the date exceeds the minimum of %s',
                 $date instanceof DateTimeInterface ? $date->toDateString() : $date,
-                Year::MIN_SUPPORTED,
+                NewYears::MIN,
             ),
         );
     }
@@ -26,7 +26,7 @@ class UnsupportedZodiacDateException extends InvalidArgumentException
             sprintf(
                 'The zodiac information for `%s` cannot be determined as the date exceeds the maximum of %s',
                 $date instanceof DateTimeInterface ? $date->toDateString() : $date,
-                Year::MAX_SUPPORTED,
+                NewYears::MAX,
             ),
         );
     }

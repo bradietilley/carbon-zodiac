@@ -51,9 +51,7 @@ enum Sign: string
     {
         $year = $year instanceof Year ? $year->year : $year;
 
-        if ($year < 1924) {
-            throw UnsupportedZodiacDateException::exceedsMinimum($year);
-        }
+        NewYears::validate($year);
 
         $steps = self::ordered()->all();
 

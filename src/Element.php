@@ -39,9 +39,7 @@ enum Element: string
     {
         $year = $year instanceof Year ? $year->year : $year;
 
-        if ($year < Year::MIN_SUPPORTED) {
-            throw UnsupportedZodiacDateException::exceedsMinimum($year);
-        }
+        NewYears::validate($year);
 
         $steps = [];
 
@@ -53,7 +51,7 @@ enum Element: string
         /** @var array<int, Element> $steps */
 
         // Offset from available start
-        $year = $year - Year::MIN_SUPPORTED;
+        $year = $year - NewYears::MIN;
 
         /**
          * Every 10 year it cycles?

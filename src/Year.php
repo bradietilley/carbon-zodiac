@@ -176,26 +176,27 @@ class Year
     public static function fromDate(Carbon $date): Year
     {
         self::validate($date);
-        $dateYmd = $date->toDateString();
 
-        $previousYear = self::MIN_SUPPORTED;
-        /** @var string $previousDate */
-        $previousDate = self::THRESHOLDS[self::MIN_SUPPORTED];
+        $year = $date->year;
+        $threshold = self::THRESHOLDS[$year];
+        $year = $date->lt($threshold) ? $year - 1 : $year;
 
-        foreach (self::THRESHOLDS as $year => $match) {
-            if ($dateYmd < $match) {
-                return new Year(
-                    $previousYear,
-                    CarbonImmutable::parse($previousDate),
-                );
-            }
+        return self::fromYear($year);
+    }
 
-            $previousYear = $year;
-            $previousDate = $match;
-        }
+    /**
+     * Convert a given zodiac year to an Element
+     *
+     * @throws UnsupportedZodiacDateException
+     */
+    public static function fromYear(int $year): Year
+    {
+        self::validate($year);
 
-        // Should not happen
-        throw UnsupportedZodiacDateException::unexpected('Cannot year from date');
+        return new Year(
+            $year,
+            CarbonImmutable::parse(self::THRESHOLDS[$year]),
+        );
     }
 
     /**
@@ -203,10 +204,10 @@ class Year
      *
      * @throws UnsupportedZodiacDateException if the date is out of range
      */
-    public static function validate(Carbon $date): void
+    public static function validate(Carbon|int $date): void
     {
-        $min = self::THRESHOLDS[self::MIN_SUPPORTED];
-        $max = self::THRESHOLDS[self::MAX_SUPPORTED];
+        $min = is_int($date) ? self::MIN_SUPPORTED : self::THRESHOLDS[self::MIN_SUPPORTED];
+        $max = is_int($date) ? self::MAX_SUPPORTED : self::THRESHOLDS[self::MAX_SUPPORTED];
 
         if ($date < $min) {
             throw UnsupportedZodiacDateException::exceedsMinimum($date);

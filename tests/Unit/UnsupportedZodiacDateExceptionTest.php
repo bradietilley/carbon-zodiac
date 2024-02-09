@@ -21,6 +21,10 @@ test('an unsupported zodiac date exception can be created', function () {
             UnsupportedZodiacDateException::exceedsMaximum(1800),
             "The zodiac information for `1800` cannot be determined as the date exceeds the maximum of 2033",
         ],
+        [
+            UnsupportedZodiacDateException::unexpected('Foo bar'),
+            "Foo bar",
+        ],
     ];
 
     foreach ($expectations as $expectation) {

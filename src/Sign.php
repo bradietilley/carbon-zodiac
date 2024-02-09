@@ -56,21 +56,21 @@ enum Sign: string
         $steps = self::ordered()->all();
 
         // Offset from available start
-        $year = $year - 1924;
+        $yearRelative = $year - NewYears::MIN;
 
         /**
          * Every 12 year it cycles
          */
-        $year = $year % 12;
+        $yearMod = $yearRelative % 12;
         /**
          * @var int $year (0-11)
          */
 
-        if (! isset($steps[$year])) {
+        if (! isset($steps[$yearMod])) {
             throw UnsupportedZodiacDateException::unexpected('Cannot determine sign from year');
         }
 
-        return $steps[$year];
+        return $steps[$yearMod];
     }
 
     /**
@@ -78,7 +78,7 @@ enum Sign: string
      */
     public static function fromDate(Carbon $date): Sign
     {
-        return self::fromYear(Year::fromDate($date));
+        return Year::fromDate($date)->sign();
     }
 
     /**

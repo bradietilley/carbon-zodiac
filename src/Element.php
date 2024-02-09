@@ -22,11 +22,11 @@ enum Element: string
     public static function ordered(): Collection
     {
         return Collection::make([
-            self::WOOD,
-            self::FIRE,
             self::EARTH,
             self::METAL,
             self::WATER,
+            self::WOOD,
+            self::FIRE,
         ]);
     }
 
@@ -73,7 +73,7 @@ enum Element: string
      */
     public static function fromDate(Carbon $date): Element
     {
-        return self::fromYear(Year::fromDate($date));
+        return Year::fromDate($date)->element();
     }
 
     /**

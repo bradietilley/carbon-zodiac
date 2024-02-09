@@ -10,7 +10,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "^10.0"
+        "illuminate/support": ">=10.0"
     },
     "require-dev": {
         "pestphp/pest": "^2.0",
@@ -20,6 +20,13 @@
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BradieTilley\\Zodiac\\Laravel\\ZodiacServiceProvider"
+            ]
         }
     }
 }

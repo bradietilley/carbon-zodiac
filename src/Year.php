@@ -88,4 +88,14 @@ class Year
             'end' =>  $this->next()->date->subDay()->toDateString(),
         ];
     }
+
+    public function element(): Element
+    {
+        return Element::fromYear($this->year);
+    }
+
+    public function sign(): Sign
+    {
+        return Sign::fromYear($this->year);
+    }
 }

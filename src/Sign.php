@@ -2,6 +2,7 @@
 
 namespace BradieTilley\Zodiac;
 
+use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
@@ -46,10 +47,12 @@ enum Sign: string
     /**
      * Convert a given zodiac year to a Sign
      */
-    public static function fromYear(int $year): Sign
+    public static function fromYear(int|Year $year): Sign
     {
+        $year = $year instanceof Year ? $year->year : $year;
+
         if ($year < 1924) {
-            throw new \Exception('Unsupported date');
+            throw UnsupportedZodiacDateException::exceedsMinimum($year);
         }
 
         $steps = self::ordered()->all();
@@ -66,7 +69,7 @@ enum Sign: string
          */
 
         if (! isset($steps[$year])) {
-            throw new \Exception('Unsupported date');
+            throw UnsupportedZodiacDateException::unexpected('Cannot determine sign from year');
         }
 
         return $steps[$year];
@@ -204,5 +207,23 @@ enum Sign: string
             self::DOG => 3,
             self::PIG => 4,
         };
+    }
+
+    /**
+     * Compile this Sign to array form
+     */
+    public function toArray(): array
+    {
+        return [
+            'value' => $this->value,
+            'label' => $this->label(),
+            'data' => [
+                'yin_yang' => $this->yinYang(),
+                'direction' => $this->direction(),
+                'season' => $this->season(),
+                'fixed_element' => $this->fixedElement()->toArray(),
+                'trine' => $this->trine(),
+            ],
+        ];
     }
 }

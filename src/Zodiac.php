@@ -12,7 +12,7 @@ class Zodiac
     public static function boot(): void
     {
         if (! Carbon::hasMacro('zodiacYear')) {
-            Carbon::macro('zodiacYear', function (): int {
+            Carbon::macro('zodiacYear', function (): Year {
                 /** @var Carbon $this */
                 /** @phpstan-ignore-next-line */
                 return Zodiac::yearFromDate($this);
@@ -39,7 +39,7 @@ class Zodiac
     /**
      * Convert the given date to a zodiac year
      */
-    public static function yearFromDate(Carbon $date): int
+    public static function yearFromDate(Carbon $date): Year
     {
         return Year::fromDate($date);
     }

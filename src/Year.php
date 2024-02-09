@@ -2,8 +2,9 @@
 
 namespace BradieTilley\Zodiac;
 
+use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use Carbon\Carbon;
-use InvalidArgumentException;
+use Carbon\CarbonImmutable;
 
 class Year
 {
@@ -11,7 +12,7 @@ class Year
      * Date of Chinese New Year(s)
      */
     public const THRESHOLDS = [
-        1901 => '1901-02-07', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1901e.pdf
+        1901 => '1901-02-19', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1901e.pdf
         1902 => '1902-02-08', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1902e.pdf
         1903 => '1903-01-29', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1903e.pdf
         1904 => '1904-02-16', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/1904e.pdf
@@ -159,49 +160,105 @@ class Year
         2033 => '2033-01-31', // Source: https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2033e.pdf
     ];
 
-    public const MIN_SUPPORTED = 1901;
+    public const MIN_SUPPORTED = 1904;
 
     public const MAX_SUPPORTED = 2033;
 
-    /**
-     * Get the given Chinese Year from the given Gregorian date
-     */
-    public static function fromDate(Carbon $date): int
+    public function __construct(public readonly int $year, public readonly CarbonImmutable $date)
     {
-        $dateYmd = $date->toDateString();
+    }
 
+    /**
+     * Get the given Zodiac/Chinese Year commencement date from the given Gregorian date
+     *
+     * @throws UnsupportedZodiacDateException if the date is out of range
+     */
+    public static function fromDate(Carbon $date): Year
+    {
+        self::validate($date);
+
+        $dateYmd = $date->toDateString();
+        $previousYear = self::MIN_SUPPORTED;
+        $previousDate = self::MIN_SUPPORTED;
+
+        foreach (self::THRESHOLDS as $year => $match) {
+            if ($dateYmd < $match) {
+                return new Year(
+                    $previousYear,
+                    CarbonImmutable::parse($previousDate),
+                );
+            }
+
+            $previousYear = $year;
+            $previousDate = $match;
+        }
+
+        // Should not happen
+        throw UnsupportedZodiacDateException::unexpected('Cannot year from date');
+    }
+
+    /**
+     * Validate that we have the answers for this given date
+     *
+     * @throws UnsupportedZodiacDateException if the date is out of range
+     */
+    public static function validate(Carbon $date): void
+    {
         $min = self::THRESHOLDS[self::MIN_SUPPORTED];
         $max = self::THRESHOLDS[self::MAX_SUPPORTED];
 
         if ($date < $min) {
-            throw new InvalidArgumentException(
-                sprintf(
-                    'Minimum supported zodiac date is %s',
-                    $min,
-                ),
-            );
+            throw UnsupportedZodiacDateException::exceedsMinimum($date);
         }
 
         if ($date > $max) {
-            throw new InvalidArgumentException(
-                sprintf(
-                    'Maximum supported zodiac date is %s',
-                    $max,
-                ),
-            );
+            throw UnsupportedZodiacDateException::tooHigh($date);
         }
+    }
 
-        $previous = 1919;
+    /**
+     * Create a new Year instance from the given date
+     *
+     * @throws UnsupportedZodiacDateException if the date is out of range
+     */
+    public static function year(Carbon $date): int
+    {
+        return self::fromDate($date)->year;
+    }
 
-        foreach (self::THRESHOLDS as $year => $match) {
-            if ($dateYmd < $match) {
-                return $previous;
-            }
+    /**
+     * Get the previous Year
+     *
+     * @throws UnsupportedZodiacDateException if the date is out of range
+     */
+    public function prev(): Year
+    {
+        return self::fromDate(
+            Carbon::parse($this->date->setMonth(6)->subYear()),
+        );
+    }
 
-            $previous = $year;
-        }
+    /**
+     * Get the next Year
+     *
+     * @throws UnsupportedZodiacDateException if the date is out of range
+     */
+    public function next(): Year
+    {
+        return self::fromDate(
+            Carbon::parse($this->date->setMonth(6)->addYear()),
+        );
+    }
 
-        // Should not happen
-        throw new InvalidArgumentException('Unsupported zodiac date');
+    /**
+     * Compile this Year to array form
+     */
+    public function toArray(): array
+    {
+        return [
+            'year' => $this->year,
+            'start' => $this->date->toDateString(),
+            'end' =>  $this->next()->date->subDay()->toDateString(),
+        ];
     }
 }

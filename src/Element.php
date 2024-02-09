@@ -2,6 +2,7 @@
 
 namespace BradieTilley\Zodiac;
 
+use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
@@ -31,11 +32,15 @@ enum Element: string
 
     /**
      * Convert a given zodiac year to an Element
+     *
+     * @throws UnsupportedZodiacDateException
      */
-    public static function fromYear(int $year): Element
+    public static function fromYear(int|Year $year): Element
     {
-        if ($year < 1924) {
-            throw new \Exception('Unsupported date');
+        $year = $year instanceof Year ? $year->year : $year;
+
+        if ($year < Year::MIN_SUPPORTED) {
+            throw UnsupportedZodiacDateException::exceedsMinimum($year);
         }
 
         $steps = [];
@@ -48,7 +53,7 @@ enum Element: string
         /** @var array<int, Element> $steps */
 
         // Offset from available start
-        $year = $year - 1924;
+        $year = $year - Year::MIN_SUPPORTED;
 
         /**
          * Every 10 year it cycles?
@@ -59,7 +64,7 @@ enum Element: string
          */
 
         if (! isset($steps[$year])) {
-            throw new \Exception('Unsupported date');
+            throw UnsupportedZodiacDateException::unexpected('Cannot determine element from year');
         }
 
         return $steps[$year];
@@ -79,5 +84,16 @@ enum Element: string
     public function label(): string
     {
         return ucfirst($this->value);
+    }
+
+    /**
+     * Compile this Element to array form
+     */
+    public function toArray(): array
+    {
+        return [
+            'value' => $this->value,
+            'label' => $this->label(),
+        ];
     }
 }

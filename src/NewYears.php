@@ -3,7 +3,7 @@
 namespace BradieTilley\Zodiac;
 
 use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
-use Carbon\Carbon;
+use DateTimeInterface;
 
 class NewYears
 {
@@ -1030,9 +1030,9 @@ class NewYears
      *
      * @throws UnsupportedZodiacDateException if the date is out of range
      */
-    public static function validate(Carbon|int $date): void
+    public static function validate(DateTimeInterface|int $date): void
     {
-        $date = $date instanceof Carbon ? $date->year : $date;
+        $date = $date instanceof DateTimeInterface ? (int) $date->format('Y') : $date;
 
         if ($date < self::MIN) {
             throw UnsupportedZodiacDateException::exceedsMinimum($date);

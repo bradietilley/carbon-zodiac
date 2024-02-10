@@ -22,9 +22,9 @@ class Year
     {
         NewYears::validate($date);
 
-        $year = $date->year;
+        $year = (int) $date->format('Y');
         $threshold = NewYears::THRESHOLDS[$year];
-        $year = $date->lt($threshold) ? $year - 1 : $year;
+        $year = ($date->format('Y-m-d') < $threshold) ? $year - 1 : $year;
 
         return self::fromYear($year);
     }

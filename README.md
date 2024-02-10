@@ -199,7 +199,7 @@ Example usage:
 
 ```php
 $element = Element::fromDate(Carbon::parse('2024-02-10'));
-$element = SigElementn::fromYear(2024); // same as above
+$element = Element::fromYear(2024); // same as above
 
 $element; // Element::WOOD
 

@@ -8,14 +8,14 @@ use Illuminate\Support\Collection;
 
 enum Sign: string
 {
-    case RAT = 'rat';
+    case MOUSE = 'mouse';
     case OX = 'ox';
     case TIGER = 'tiger';
     case RABBIT = 'rabbit';
     case DRAGON = 'dragon';
     case SNAKE = 'snake';
     case HORSE = 'horse';
-    case SHEEP = 'sheep';
+    case GOAT = 'goat';
     case MONKEY = 'monkey';
     case ROOSTER = 'rooster';
     case DOG = 'dog';
@@ -29,14 +29,14 @@ enum Sign: string
     public static function ordered(): Collection
     {
         return Collection::make([
-            self::RAT,
+            self::MOUSE,
             self::OX,
             self::TIGER,
             self::RABBIT,
             self::DRAGON,
             self::SNAKE,
             self::HORSE,
-            self::SHEEP,
+            self::GOAT,
             self::MONKEY,
             self::ROOSTER,
             self::DOG,
@@ -87,14 +87,14 @@ enum Sign: string
     public function label(): string
     {
         return match ($this) {
-            self::RAT => 'Rat',
+            self::MOUSE => 'Mouse',
             self::OX => 'Ox',
             self::TIGER => 'Tiger',
             self::RABBIT => 'Rabbit',
             self::DRAGON => 'Dragon',
             self::SNAKE => 'Snake',
             self::HORSE => 'Horse',
-            self::SHEEP => 'Sheep',
+            self::GOAT => 'Goat',
             self::MONKEY => 'Monkey',
             self::ROOSTER => 'Rooster',
             self::DOG => 'Dog',
@@ -108,14 +108,14 @@ enum Sign: string
     public function yinYang(): string
     {
         return match ($this) {
-            self::RAT => 'Yang',
+            self::MOUSE => 'Yang',
             self::OX => 'Yin',
             self::TIGER => 'Yang',
             self::RABBIT => 'Yin',
             self::DRAGON => 'Yang',
             self::SNAKE => 'Yin',
             self::HORSE => 'Yang',
-            self::SHEEP => 'Yin',
+            self::GOAT => 'Yin',
             self::MONKEY => 'Yang',
             self::ROOSTER => 'Yin',
             self::DOG => 'Yang',
@@ -129,14 +129,14 @@ enum Sign: string
     public function direction(): string
     {
         return match ($this) {
-            self::RAT => 'North',
+            self::MOUSE => 'North',
             self::OX => 'North',
             self::TIGER => 'East',
             self::RABBIT => 'East',
             self::DRAGON => 'East',
             self::SNAKE => 'South',
             self::HORSE => 'South',
-            self::SHEEP => 'South',
+            self::GOAT => 'South',
             self::MONKEY => 'West',
             self::ROOSTER => 'West',
             self::DOG => 'West',
@@ -150,14 +150,14 @@ enum Sign: string
     public function season(): string
     {
         return match ($this) {
-            self::RAT => 'Mid-Winter',
+            self::MOUSE => 'Mid-Winter',
             self::OX => 'Late Winter',
             self::TIGER => 'Early Spring',
             self::RABBIT => 'Mid-Spring',
             self::DRAGON => 'Late Spring',
             self::SNAKE => 'Early Summer',
             self::HORSE => 'Mid-Summer',
-            self::SHEEP => 'Late Summer',
+            self::GOAT => 'Late Summer',
             self::MONKEY => 'Early Autumn',
             self::ROOSTER => 'Mid-Autumn',
             self::DOG => 'Late Autumn',
@@ -171,14 +171,14 @@ enum Sign: string
     public function fixedElement(): Element
     {
         return match ($this) {
-            self::RAT => Element::WATER,
+            self::MOUSE => Element::WATER,
             self::OX => Element::EARTH,
             self::TIGER => Element::WOOD,
             self::RABBIT => Element::WOOD,
             self::DRAGON => Element::EARTH,
             self::SNAKE => Element::FIRE,
             self::HORSE => Element::FIRE,
-            self::SHEEP => Element::EARTH,
+            self::GOAT => Element::EARTH,
             self::MONKEY => Element::METAL,
             self::ROOSTER => Element::METAL,
             self::DOG => Element::EARTH,
@@ -192,14 +192,14 @@ enum Sign: string
     public function trine(): int
     {
         return match ($this) {
-            self::RAT => 1,
+            self::MOUSE => 1,
             self::OX => 2,
             self::TIGER => 3,
             self::RABBIT => 4,
             self::DRAGON => 1,
             self::SNAKE => 2,
             self::HORSE => 3,
-            self::SHEEP => 4,
+            self::GOAT => 4,
             self::MONKEY => 1,
             self::ROOSTER => 2,
             self::DOG => 3,

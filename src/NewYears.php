@@ -14,7 +14,8 @@ class NewYears
         /**
          * This source provides the most amount of data that I've come across
          * which matches the Hong Kong Observatory's dates for the ~100 years
-         * of dates that HKO have published. So..... should be good yeah?
+         * of dates that HKO have published. So..... the other ~900 should be
+         * good yeah?
          *
          * @link https://pinyin.info/chinese_new_year/index.html
          */

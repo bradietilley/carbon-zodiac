@@ -26,7 +26,7 @@ test('all years can be queried', function () {
     expect(file_get_contents($file))->toBe($json);
 });
 
-test('import years', function () {
+test('compare signs against source', function () {
     $path = realpath(__DIR__.'/../data/source.txt');
     $contents = file_get_contents($path);
     $rows = explode("\n", $contents);
@@ -41,13 +41,11 @@ test('import years', function () {
                 return;
             }
 
-            // $row = "{$date->year} => '{$date->toDateString()}',".PHP_EOL;
-            // file_put_contents(__DIR__.'/years.txt', $row, FILE_APPEND);
-
             $actual = Year::fromDate($date)->sign()->value;
 
             $expect = [
-                'goat' => 'sheep',
+                'sheep' => 'goat',
+                'rat' => 'mouse',
             ][$expect] ?? $expect;
 
             expect($actual)->toBe($expect, sprintf(

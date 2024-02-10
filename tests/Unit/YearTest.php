@@ -42,17 +42,17 @@ test('a year can be converted to array', function (string $date, array $expect) 
 ]);
 
 test('a year has yin yang state', function () {
+    $expect = Collection::range(1970, 2030)
+        ->mapWithKeys(fn (int $year) => [
+            $year => ($year % 2) === 1 ? 'yin' : 'yang',
+        ])
+        ->all();
+
     $actual = Collection::range(1970, 2030)
         ->mapWithKeys(fn (int $year) => [
             $year => Year::fromYear($year)->yinYang()->value,
         ])
         ->all();
-
-    $file = realpath(__DIR__.'/../data/year-yinyang.json');
-    $expect = json_decode(file_get_contents($file), true);
-    $expect = Collection::make($expect)->mapWithKeys(fn (string $yinyang, string $year) => [
-        (int) $year => $yinyang,
-    ])->all();
 
     expect($actual)->toBe($expect);
 });

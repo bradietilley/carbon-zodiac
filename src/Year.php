@@ -101,6 +101,6 @@ class Year
 
     public function yinYang(): YinYang
     {
-        return ($this->year % 2) === 0 ? YinYang::YANG : YinYang::YIN;
+        return ($this->year % 2) === 1 ? YinYang::YIN : YinYang::YANG;
     }
 }

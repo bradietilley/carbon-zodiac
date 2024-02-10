@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
 test('all years can be queried', function () {
-    $data = Collection::range(NewYears::MIN + 1, NewYears::MAX - 1)
+    $data = Collection::range(1900, 2100)
         ->map(function (int $year) {
             $year = Year::fromYear($year);
 
@@ -18,9 +18,10 @@ test('all years can be queried', function () {
         })
         ->all();
 
-    $json = json_encode($data);
+    $json = json_encode($data, JSON_PRETTY_PRINT);
 
     $file = realpath(__DIR__.'/../data/output.json');
+    // file_put_contents($file, $json);
     expect(file_get_contents($file))->toBe($json);
 });
 

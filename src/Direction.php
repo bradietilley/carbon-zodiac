@@ -53,12 +53,31 @@ enum Direction: string
         };
     }
 
+    public function quadrant(): string
+    {
+        return match ($this) {
+            self::NORTH => 'North',
+            self::NORTHNORTHEAST => 'North',
+            self::EASTNORTHEAST => 'East',
+            self::EAST => 'East',
+            self::EASTSOUTHEAST => 'East',
+            self::SOUTHSOUTHEAST => 'South',
+            self::SOUTH => 'South',
+            self::SOUTHSOUTHWEST => 'South',
+            self::WESTSOUTHWEST => 'West',
+            self::WEST => 'West',
+            self::WESTNORTHWEST => 'West',
+            self::NORTHNORTHWEST => 'North',
+        };
+    }
+
     public function toArray(): array
     {
         return [
             'value' => $this->value,
             'label' => $this->label(),
             'degrees' => $this->degrees(),
+            'quadrant' => $this->quadrant(),
         ];
     }
 }

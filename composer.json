@@ -16,7 +16,7 @@
         "pestphp/pest": "^2.0",
         "laravel/pint": "^1.10",
         "phpstan/phpstan": "^1.10",
-        "symfony/var-dumper": "^7.0"
+        "symfony/var-dumper": ">=5.0"
     },
     "config": {
         "allow-plugins": {

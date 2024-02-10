@@ -21,7 +21,7 @@ test('all years can be queried', function () {
     $json = json_encode($data, JSON_PRETTY_PRINT);
 
     $file = realpath(__DIR__.'/../data/output.json');
-    file_put_contents($file, $json);
+    // file_put_contents($file, $json);
     expect(file_get_contents($file))->toBe($json);
 });
 

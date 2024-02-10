@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
 
 enum Sign: string
 {
-    case MOUSE = 'mouse';
+    case RAT = 'rat';
     case OX = 'ox';
     case TIGER = 'tiger';
     case RABBIT = 'rabbit';
@@ -29,7 +29,7 @@ enum Sign: string
     public static function ordered(): Collection
     {
         return Collection::make([
-            self::MOUSE,
+            self::RAT,
             self::OX,
             self::TIGER,
             self::RABBIT,
@@ -87,7 +87,7 @@ enum Sign: string
     public function label(): string
     {
         return match ($this) {
-            self::MOUSE => 'Mouse',
+            self::RAT => 'Rat',
             self::OX => 'Ox',
             self::TIGER => 'Tiger',
             self::RABBIT => 'Rabbit',
@@ -108,7 +108,7 @@ enum Sign: string
     public function yinYang(): string
     {
         return match ($this) {
-            self::MOUSE => 'Yang',
+            self::RAT => 'Yang',
             self::OX => 'Yin',
             self::TIGER => 'Yang',
             self::RABBIT => 'Yin',
@@ -129,7 +129,7 @@ enum Sign: string
     public function direction(): string
     {
         return match ($this) {
-            self::MOUSE => 'North',
+            self::RAT => 'North',
             self::OX => 'North',
             self::TIGER => 'East',
             self::RABBIT => 'East',
@@ -150,7 +150,7 @@ enum Sign: string
     public function season(): string
     {
         return match ($this) {
-            self::MOUSE => 'Mid-Winter',
+            self::RAT => 'Mid-Winter',
             self::OX => 'Late Winter',
             self::TIGER => 'Early Spring',
             self::RABBIT => 'Mid-Spring',
@@ -171,7 +171,7 @@ enum Sign: string
     public function fixedElement(): Element
     {
         return match ($this) {
-            self::MOUSE => Element::WATER,
+            self::RAT => Element::WATER,
             self::OX => Element::EARTH,
             self::TIGER => Element::WOOD,
             self::RABBIT => Element::WOOD,
@@ -192,7 +192,7 @@ enum Sign: string
     public function trine(): int
     {
         return match ($this) {
-            self::MOUSE => 1,
+            self::RAT => 1,
             self::OX => 2,
             self::TIGER => 3,
             self::RABBIT => 4,

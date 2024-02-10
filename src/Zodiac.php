@@ -3,6 +3,7 @@
 namespace BradieTilley\Zodiac;
 
 use Carbon\Carbon;
+use DateTimeInterface;
 
 class Zodiac
 {
@@ -39,7 +40,7 @@ class Zodiac
     /**
      * Convert the given date to a zodiac year
      */
-    public static function yearFromDate(Carbon $date): Year
+    public static function yearFromDate(DateTimeInterface $date): Year
     {
         return Year::fromDate($date);
     }
@@ -47,7 +48,7 @@ class Zodiac
     /**
      * Convert the given date to a zodiac element
      */
-    public static function elementFromDate(Carbon $date): Element
+    public static function elementFromDate(DateTimeInterface $date): Element
     {
         return Element::fromDate($date);
     }
@@ -55,7 +56,7 @@ class Zodiac
     /**
      * Convert the given date to the zodiac sign
      */
-    public static function signFromDate(Carbon $date): Sign
+    public static function signFromDate(DateTimeInterface $date): Sign
     {
         return Sign::fromDate($date);
     }

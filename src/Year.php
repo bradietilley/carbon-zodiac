@@ -5,6 +5,7 @@ namespace BradieTilley\Zodiac;
 use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use Carbon\Carbon;
 use Carbon\CarbonImmutable;
+use DateTimeInterface;
 
 class Year
 {
@@ -17,7 +18,7 @@ class Year
      *
      * @throws UnsupportedZodiacDateException if the date is out of range
      */
-    public static function fromDate(Carbon $date): Year
+    public static function fromDate(DateTimeInterface $date): Year
     {
         NewYears::validate($date);
 
@@ -48,7 +49,7 @@ class Year
      *
      * @throws UnsupportedZodiacDateException if the date is out of range
      */
-    public static function year(Carbon $date): int
+    public static function year(DateTimeInterface $date): int
     {
         return self::fromDate($date)->year;
     }

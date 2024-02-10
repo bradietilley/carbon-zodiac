@@ -3,7 +3,7 @@
 namespace BradieTilley\Zodiac;
 
 use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
-use Carbon\Carbon;
+use DateTimeInterface;
 use Illuminate\Support\Collection;
 
 enum Sign: string
@@ -76,7 +76,7 @@ enum Sign: string
     /**
      * Convert any given date to a Sign
      */
-    public static function fromDate(Carbon $date): Sign
+    public static function fromDate(DateTimeInterface $date): Sign
     {
         return Year::fromDate($date)->sign();
     }

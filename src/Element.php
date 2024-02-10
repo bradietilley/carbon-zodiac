@@ -2,6 +2,7 @@
 
 namespace BradieTilley\Zodiac;
 
+use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
@@ -21,22 +22,24 @@ enum Element: string
     public static function ordered(): Collection
     {
         return Collection::make([
-            self::WOOD,
-            self::FIRE,
             self::EARTH,
             self::METAL,
             self::WATER,
+            self::WOOD,
+            self::FIRE,
         ]);
     }
 
     /**
      * Convert a given zodiac year to an Element
+     *
+     * @throws UnsupportedZodiacDateException
      */
-    public static function fromYear(int $year): Element
+    public static function fromYear(int|Year $year): Element
     {
-        if ($year < 1924) {
-            throw new \Exception('Unsupported date');
-        }
+        $year = $year instanceof Year ? $year->year : $year;
+
+        NewYears::validate($year);
 
         $steps = [];
 
@@ -48,7 +51,7 @@ enum Element: string
         /** @var array<int, Element> $steps */
 
         // Offset from available start
-        $year = $year - 1924;
+        $year = $year - NewYears::MIN;
 
         /**
          * Every 10 year it cycles?
@@ -59,7 +62,7 @@ enum Element: string
          */
 
         if (! isset($steps[$year])) {
-            throw new \Exception('Unsupported date');
+            throw UnsupportedZodiacDateException::unexpected('Cannot determine element from year');
         }
 
         return $steps[$year];
@@ -70,7 +73,7 @@ enum Element: string
      */
     public static function fromDate(Carbon $date): Element
     {
-        return self::fromYear(Year::fromDate($date));
+        return Year::fromDate($date)->element();
     }
 
     /**
@@ -79,5 +82,16 @@ enum Element: string
     public function label(): string
     {
         return ucfirst($this->value);
+    }
+
+    /**
+     * Compile this Element to array form
+     */
+    public function toArray(): array
+    {
+        return [
+            'value' => $this->value,
+            'label' => $this->label(),
+        ];
     }
 }

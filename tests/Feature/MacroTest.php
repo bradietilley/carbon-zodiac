@@ -9,7 +9,7 @@ test('Carbon Macro zodiacYear', function (string $date, int $year) {
     Zodiac::boot();
 
     $date = Carbon::parse($date);
-    expect($date->zodiacYear())->toBe($year);
+    expect($date->zodiacYear()->year)->toBe($year);
 })->with(getZodiacDatasetYears());
 
 test('Carbon Macro zodiacElement', function (int $year, string $element) {

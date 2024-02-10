@@ -126,21 +126,21 @@ enum Sign: string
     /**
      * Get the sign's direction
      */
-    public function direction(): string
+    public function direction(): Direction
     {
         return match ($this) {
-            self::RAT => 'North',
-            self::OX => 'North',
-            self::TIGER => 'East',
-            self::RABBIT => 'East',
-            self::DRAGON => 'East',
-            self::SNAKE => 'South',
-            self::HORSE => 'South',
-            self::GOAT => 'South',
-            self::MONKEY => 'West',
-            self::ROOSTER => 'West',
-            self::DOG => 'West',
-            self::PIG => 'North',
+            self::RAT => Direction::NORTH,
+            self::OX => Direction::NORTHNORTHEAST,
+            self::TIGER => Direction::EASTNORTHEAST,
+            self::RABBIT => Direction::EAST,
+            self::DRAGON => Direction::EASTSOUTHEAST,
+            self::SNAKE => Direction::SOUTHSOUTHEAST,
+            self::HORSE => Direction::SOUTH,
+            self::GOAT => Direction::SOUTHSOUTHWEST,
+            self::MONKEY => Direction::WESTSOUTHWEST,
+            self::ROOSTER => Direction::WEST,
+            self::DOG => Direction::WESTNORTHWEST,
+            self::PIG => Direction::NORTHNORTHWEST,
         };
     }
 
@@ -253,7 +253,7 @@ enum Sign: string
             'label' => $this->label(),
             'data' => [
                 'yin_yang' => $this->yinYang()->toArray(),
-                'direction' => $this->direction(),
+                'direction' => $this->direction()->toArray(),
                 'season' => $this->season(),
                 'fixed_element' => $this->fixedElement()->toArray(),
                 'trine' => $this->trine(),

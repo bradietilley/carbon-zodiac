@@ -18,7 +18,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -51,7 +55,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -84,7 +92,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -117,7 +129,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -150,7 +166,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -183,7 +203,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -216,7 +240,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -249,7 +277,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -282,7 +314,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -315,7 +351,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -348,7 +388,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -381,7 +425,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -414,7 +462,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -447,7 +499,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -480,7 +536,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -513,7 +573,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -546,7 +610,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -579,7 +647,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -612,7 +684,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -645,7 +721,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -678,7 +758,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -711,7 +795,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -744,7 +832,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -777,7 +869,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -810,7 +906,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -843,7 +943,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -876,7 +980,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -909,7 +1017,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -942,7 +1054,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -975,7 +1091,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -1008,7 +1128,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -1041,7 +1165,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -1074,7 +1202,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -1107,7 +1239,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -1140,7 +1276,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -1173,7 +1313,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -1206,7 +1350,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -1239,7 +1387,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -1272,7 +1424,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -1305,7 +1461,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -1338,7 +1498,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -1371,7 +1535,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -1404,7 +1572,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -1437,7 +1609,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -1470,7 +1646,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -1503,7 +1683,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -1536,7 +1720,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -1569,7 +1757,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -1602,7 +1794,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -1635,7 +1831,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -1668,7 +1868,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -1701,7 +1905,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -1734,7 +1942,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -1767,7 +1979,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -1800,7 +2016,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -1833,7 +2053,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -1866,7 +2090,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -1899,7 +2127,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -1932,7 +2164,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -1965,7 +2201,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -1998,7 +2238,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -2031,7 +2275,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -2064,7 +2312,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -2097,7 +2349,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -2130,7 +2386,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -2163,7 +2423,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -2196,7 +2460,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -2229,7 +2497,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -2262,7 +2534,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -2295,7 +2571,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -2328,7 +2608,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -2361,7 +2645,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -2394,7 +2682,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -2427,7 +2719,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -2460,7 +2756,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -2493,7 +2793,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -2526,7 +2830,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -2559,7 +2867,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -2592,7 +2904,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -2625,7 +2941,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -2658,7 +2978,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -2691,7 +3015,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -2724,7 +3052,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -2757,7 +3089,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -2790,7 +3126,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -2823,7 +3163,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -2856,7 +3200,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -2889,7 +3237,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -2922,7 +3274,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -2955,7 +3311,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -2988,7 +3348,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -3021,7 +3385,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -3054,7 +3422,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -3087,7 +3459,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -3120,7 +3496,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -3153,7 +3533,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -3186,7 +3570,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -3219,7 +3607,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -3252,7 +3644,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -3285,7 +3681,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -3318,7 +3718,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -3351,7 +3755,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -3384,7 +3792,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -3417,7 +3829,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -3450,7 +3866,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -3483,7 +3903,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -3516,7 +3940,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -3549,7 +3977,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -3582,7 +4014,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -3615,7 +4051,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -3648,7 +4088,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -3681,7 +4125,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -3714,7 +4162,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -3747,7 +4199,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -3780,7 +4236,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -3813,7 +4273,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -3846,7 +4310,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -3879,7 +4347,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -3912,7 +4384,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -3945,7 +4421,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -3978,7 +4458,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -4011,7 +4495,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -4044,7 +4532,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -4077,7 +4569,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -4110,7 +4606,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -4143,7 +4643,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -4176,7 +4680,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -4209,7 +4717,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -4242,7 +4754,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -4275,7 +4791,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -4308,7 +4828,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -4341,7 +4865,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -4374,7 +4902,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -4407,7 +4939,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -4440,7 +4976,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -4473,7 +5013,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -4506,7 +5050,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -4539,7 +5087,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -4572,7 +5124,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -4605,7 +5161,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -4638,7 +5198,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -4671,7 +5235,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -4704,7 +5272,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -4737,7 +5309,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -4770,7 +5346,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -4803,7 +5383,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -4836,7 +5420,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -4869,7 +5457,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -4902,7 +5494,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -4935,7 +5531,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -4968,7 +5568,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -5001,7 +5605,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -5034,7 +5642,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -5067,7 +5679,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -5100,7 +5716,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -5133,7 +5753,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -5166,7 +5790,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -5199,7 +5827,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -5232,7 +5864,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -5265,7 +5901,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -5298,7 +5938,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -5331,7 +5975,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -5364,7 +6012,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -5397,7 +6049,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -5430,7 +6086,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -5463,7 +6123,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -5496,7 +6160,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -5529,7 +6197,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -5562,7 +6234,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -5595,7 +6271,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -5628,7 +6308,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -5661,7 +6345,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -5694,7 +6382,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -5727,7 +6419,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -5760,7 +6456,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -5793,7 +6493,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -5826,7 +6530,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -5859,7 +6567,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -5892,7 +6604,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -5925,7 +6641,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -5958,7 +6678,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -5991,7 +6715,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -6024,7 +6752,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -6057,7 +6789,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -6090,7 +6826,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -6123,7 +6863,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -6156,7 +6900,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -6189,7 +6937,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -6222,7 +6974,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -6255,7 +7011,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "W",
+                    "label": "West",
+                    "degrees": 270
+                },
                 "season": "Mid-Autumn",
                 "fixed_element": {
                     "value": "metal",
@@ -6288,7 +7048,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WNW",
+                    "label": "West-Northwest",
+                    "degrees": 300
+                },
                 "season": "Late Autumn",
                 "fixed_element": {
                     "value": "earth",
@@ -6321,7 +7085,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNW",
+                    "label": "North-Northwest",
+                    "degrees": 330
+                },
                 "season": "Early Winter",
                 "fixed_element": {
                     "value": "water",
@@ -6354,7 +7122,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "N",
+                    "label": "North",
+                    "degrees": 0
+                },
                 "season": "Mid-Winter",
                 "fixed_element": {
                     "value": "water",
@@ -6387,7 +7159,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "North",
+                "direction": {
+                    "value": "NNE",
+                    "label": "North-Northeast",
+                    "degrees": 30
+                },
                 "season": "Late Winter",
                 "fixed_element": {
                     "value": "earth",
@@ -6420,7 +7196,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ENE",
+                    "label": "East-Northeast",
+                    "degrees": 60
+                },
                 "season": "Early Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -6453,7 +7233,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "E",
+                    "label": "East",
+                    "degrees": 90
+                },
                 "season": "Mid-Spring",
                 "fixed_element": {
                     "value": "wood",
@@ -6486,7 +7270,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "East",
+                "direction": {
+                    "value": "ESE",
+                    "label": "East-Southeast",
+                    "degrees": 120
+                },
                 "season": "Late Spring",
                 "fixed_element": {
                     "value": "earth",
@@ -6519,7 +7307,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSE",
+                    "label": "South-Southeast",
+                    "degrees": 150
+                },
                 "season": "Early Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -6552,7 +7344,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "S",
+                    "label": "South",
+                    "degrees": 180
+                },
                 "season": "Mid-Summer",
                 "fixed_element": {
                     "value": "fire",
@@ -6585,7 +7381,11 @@
                     "label": "Yin",
                     "color": "black"
                 },
-                "direction": "South",
+                "direction": {
+                    "value": "SSW",
+                    "label": "South-Southwest",
+                    "degrees": 210
+                },
                 "season": "Late Summer",
                 "fixed_element": {
                     "value": "earth",
@@ -6618,7 +7418,11 @@
                     "label": "Yang",
                     "color": "white"
                 },
-                "direction": "West",
+                "direction": {
+                    "value": "WSW",
+                    "label": "West-Southwest",
+                    "degrees": 240
+                },
                 "season": "Early Autumn",
                 "fixed_element": {
                     "value": "metal",

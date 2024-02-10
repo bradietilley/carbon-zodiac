@@ -21,7 +21,11 @@ test('a sign can be converted to array', function (string $date, array $expect) 
             'value' => 'snake',
             'label' => 'Snake',
             'data' => [
-                'yin_yang' => 'Yin',
+                'yin_yang' => [
+                    'value' => 'yin',
+                    'label' => 'Yin',
+                    'color' => 'black',
+                ],
                 'direction' => 'South',
                 'season' => 'Early Summer',
                 'fixed_element' => [
@@ -38,7 +42,11 @@ test('a sign can be converted to array', function (string $date, array $expect) 
             'value' => 'dragon',
             'label' => 'Dragon',
             'data' => [
-                'yin_yang' => 'Yang',
+                'yin_yang' => [
+                    'value' => 'yang',
+                    'label' => 'Yang',
+                    'color' => 'white',
+                ],
                 'direction' => 'East',
                 'season' => 'Late Spring',
                 'fixed_element' => [
@@ -55,7 +63,11 @@ test('a sign can be converted to array', function (string $date, array $expect) 
             'value' => 'snake',
             'label' => 'Snake',
             'data' => [
-                'yin_yang' => 'Yin',
+                'yin_yang' => [
+                    'value' => 'yin',
+                    'label' => 'Yin',
+                    'color' => 'black',
+                ],
                 'direction' => 'South',
                 'season' => 'Early Summer',
                 'fixed_element' => [

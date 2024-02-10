@@ -98,4 +98,9 @@ class Year
     {
         return Sign::fromYear($this->year);
     }
+
+    public function yinYang(): YinYang
+    {
+        return ($this->year % 2) === 1 ? YinYang::YIN : YinYang::YANG;
+    }
 }

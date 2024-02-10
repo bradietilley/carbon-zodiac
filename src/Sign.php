@@ -103,23 +103,23 @@ enum Sign: string
     }
 
     /**
-     * Get the sign's Yin or Yang state
+     * Get the sign's YinYang state
      */
-    public function yinYang(): string
+    public function yinYang(): YinYang
     {
         return match ($this) {
-            self::RAT => 'Yang',
-            self::OX => 'Yin',
-            self::TIGER => 'Yang',
-            self::RABBIT => 'Yin',
-            self::DRAGON => 'Yang',
-            self::SNAKE => 'Yin',
-            self::HORSE => 'Yang',
-            self::GOAT => 'Yin',
-            self::MONKEY => 'Yang',
-            self::ROOSTER => 'Yin',
-            self::DOG => 'Yang',
-            self::PIG => 'Yin',
+            self::RAT => YinYang::YANG,
+            self::OX => YinYang::YIN,
+            self::TIGER => YinYang::YANG,
+            self::RABBIT => YinYang::YIN,
+            self::DRAGON => YinYang::YANG,
+            self::SNAKE => YinYang::YIN,
+            self::HORSE => YinYang::YANG,
+            self::GOAT => YinYang::YIN,
+            self::MONKEY => YinYang::YANG,
+            self::ROOSTER => YinYang::YIN,
+            self::DOG => YinYang::YANG,
+            self::PIG => YinYang::YIN,
         };
     }
 
@@ -216,7 +216,7 @@ enum Sign: string
             'value' => $this->value,
             'label' => $this->label(),
             'data' => [
-                'yin_yang' => $this->yinYang(),
+                'yin_yang' => $this->yinYang()->toArray(),
                 'direction' => $this->direction(),
                 'season' => $this->season(),
                 'fixed_element' => $this->fixedElement()->toArray(),

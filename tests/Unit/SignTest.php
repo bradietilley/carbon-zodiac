@@ -24,6 +24,7 @@ test('a sign can be converted to array', function (string $date, array $expect) 
                 'yin_yang' => [
                     'value' => 'yin',
                     'label' => 'Yin',
+                    'color' => 'black',
                 ],
                 'direction' => 'South',
                 'season' => 'Early Summer',
@@ -44,6 +45,7 @@ test('a sign can be converted to array', function (string $date, array $expect) 
                 'yin_yang' => [
                     'value' => 'yang',
                     'label' => 'Yang',
+                    'color' => 'white',
                 ],
                 'direction' => 'East',
                 'season' => 'Late Spring',
@@ -64,6 +66,7 @@ test('a sign can be converted to array', function (string $date, array $expect) 
                 'yin_yang' => [
                     'value' => 'yin',
                     'label' => 'Yin',
+                    'color' => 'black',
                 ],
                 'direction' => 'South',
                 'season' => 'Early Summer',

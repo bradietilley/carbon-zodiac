@@ -64,7 +64,7 @@ function getZodiacDatasetElements(): array
 function getZodiacDatasetSigns(): array
 {
     return [
-        '1924 yields Mouse' => [ 1924, Sign::MOUSE->value, ],
+        '1924 yields Rat' => [ 1924, Sign::RAT->value, ],
         '1925 yields Ox' => [ 1925, Sign::OX->value, ],
         '1926 yields Tiger' => [ 1926, Sign::TIGER->value, ],
         '1927 yields Rabbit' => [ 1927, Sign::RABBIT->value, ],
@@ -77,7 +77,7 @@ function getZodiacDatasetSigns(): array
         '1934 yields Dog' => [ 1934, Sign::DOG->value, ],
         '1935 yields Pig' => [ 1935, Sign::PIG->value, ],
 
-        '1936 yields Mouse' => [ 1936, Sign::MOUSE->value, ],
+        '1936 yields Rat' => [ 1936, Sign::RAT->value, ],
         '1937 yields Ox' => [ 1937, Sign::OX->value, ],
         '1938 yields Tiger' => [ 1938, Sign::TIGER->value, ],
         '1939 yields Rabbit' => [ 1939, Sign::RABBIT->value, ],
@@ -90,7 +90,7 @@ function getZodiacDatasetSigns(): array
         '1946 yields Dog' => [ 1946, Sign::DOG->value, ],
         '1947 yields Pig' => [ 1947, Sign::PIG->value, ],
 
-        '2020 yields Mouse' => [ 1936, Sign::MOUSE->value, ],
+        '2020 yields Rat' => [ 1936, Sign::RAT->value, ],
         '2021 yields Ox' => [ 1937, Sign::OX->value, ],
         '2022 yields Tiger' => [ 1938, Sign::TIGER->value, ],
         '2023 yields Rabbit' => [ 1939, Sign::RABBIT->value, ],

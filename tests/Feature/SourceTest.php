@@ -45,7 +45,7 @@ test('compare signs against source', function () {
 
             $expect = [
                 'sheep' => 'goat',
-                'rat' => 'mouse',
+                'mouse' => 'rat',
             ][$expect] ?? $expect;
 
             expect($actual)->toBe($expect, sprintf(

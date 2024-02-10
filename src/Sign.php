@@ -207,6 +207,42 @@ enum Sign: string
         };
     }
 
+    public function symbolPreferTraditional(): string
+    {
+        return match ($this) {
+            self::RAT => '鼠',
+            self::OX => '牛',
+            self::TIGER => '虎',
+            self::RABBIT => '兔',
+            self::DRAGON => '龍',
+            self::SNAKE => '蛇',
+            self::HORSE => '馬',
+            self::GOAT => '羊',
+            self::MONKEY => '猴',
+            self::ROOSTER => '雞',
+            self::DOG => '狗',
+            self::PIG => '豬',
+        };
+    }
+
+    public function symbolPreferSimplified(): string
+    {
+        return match ($this) {
+            self::RAT => '鼠',
+            self::OX => '牛',
+            self::TIGER => '虎',
+            self::RABBIT => '兔',
+            self::DRAGON => '龙',
+            self::SNAKE => '蛇',
+            self::HORSE => '马',
+            self::GOAT => '羊',
+            self::MONKEY => '猴',
+            self::ROOSTER => '鸡',
+            self::DOG => '狗',
+            self::PIG => '猪',
+        };
+    }
+
     /**
      * Compile this Sign to array form
      */
@@ -221,6 +257,10 @@ enum Sign: string
                 'season' => $this->season(),
                 'fixed_element' => $this->fixedElement()->toArray(),
                 'trine' => $this->trine(),
+                'symbols' => [
+                    'traditional' => $this->symbolPreferTraditional(),
+                    'simplified' => $this->symbolPreferSimplified(),
+                ],
             ],
         ];
     }

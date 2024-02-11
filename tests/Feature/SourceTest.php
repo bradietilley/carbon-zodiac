@@ -1,6 +1,6 @@
 <?php
 
-use BradieTilley\Zodiac\NewYears;
+use BradieTilley\Zodiac\Constants;
 use BradieTilley\Zodiac\Year;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
@@ -45,7 +45,7 @@ test('compare signs against source', function () {
             $date = Carbon::createFromFormat('Y-M-d', sprintf('%s-%s-%s', $matches[3], $matches[1], $matches[2]))->startOfDay();
             $expect = strtolower($matches[4]);
 
-            if ($date->year <= NewYears::MIN) {
+            if ($date->year <= Constants::MIN) {
                 return;
             }
 

@@ -5,12 +5,12 @@ namespace BradieTilley\Zodiac;
 use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use DateTimeInterface;
 
-class NewYears
+class Constants
 {
     /**
      * Date of Chinese New Year(s)
      */
-    public const THRESHOLDS = [
+    public const NEW_YEAR_THRESHOLDS = [
         /**
          * This source provides the most amount of data that I've come across
          * which matches the Hong Kong Observatory's dates for the ~100 years

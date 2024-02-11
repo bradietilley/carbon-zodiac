@@ -51,12 +51,12 @@ enum Sign: string
     {
         $year = $year instanceof Year ? $year->year : $year;
 
-        NewYears::validate($year);
+        Constants::validate($year);
 
         $steps = self::ordered()->all();
 
         // Offset from available start
-        $yearRelative = $year - NewYears::MIN;
+        $yearRelative = $year - Constants::MIN;
 
         /**
          * Every 12 year it cycles

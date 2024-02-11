@@ -39,7 +39,7 @@ enum Element: string
     {
         $year = $year instanceof Year ? $year->year : $year;
 
-        NewYears::validate($year);
+        Constants::validate($year);
 
         $steps = [];
 
@@ -51,7 +51,7 @@ enum Element: string
         /** @var array<int, Element> $steps */
 
         // Offset from available start
-        $year = $year - NewYears::MIN;
+        $year = $year - Constants::MIN;
 
         /**
          * Every 10 year it cycles?

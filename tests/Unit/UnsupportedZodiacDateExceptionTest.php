@@ -1,12 +1,12 @@
 <?php
 
 use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
-use BradieTilley\Zodiac\NewYears;
+use BradieTilley\Zodiac\Constants;
 use Carbon\Carbon;
 
 test('an unsupported zodiac date exception can be created', function () {
-    $min = NewYears::MIN;
-    $max = NewYears::MAX;
+    $min = Constants::MIN;
+    $max = Constants::MAX;
 
     $expectations = [
         [

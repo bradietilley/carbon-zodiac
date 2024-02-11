@@ -1026,6 +1026,11 @@ class Constants
     public const MAX = 2644;
 
     /**
+     * The 12 & 60 year cycles start from the year 0004
+     */
+    public const CYCLE_START_YEAR = 4;
+
+    /**
      * Validate that we have the answers for this given date
      *
      * @throws UnsupportedZodiacDateException if the date is out of range

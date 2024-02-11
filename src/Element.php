@@ -17,17 +17,49 @@ enum Element: string
     /**
      * Get all elements in the order the occur
      *
-     * @return Collection<int, Element>
+     * @return array<int, Element>
      */
-    public static function ordered(): Collection
+    public static function sequence(): array
     {
-        return Collection::make([
+        return [
             self::EARTH,
             self::METAL,
             self::WATER,
             self::WOOD,
             self::FIRE,
-        ]);
+        ];
+    }
+
+    /**
+     * Get all elements in the order the occur
+     *
+     * @return Collection<int, Element>
+     */
+    public static function ordered(): Collection
+    {
+        return Collection::make(self::sequence());
+    }
+
+    /**
+     * Get an array of Elements where the key represents
+     * the year's ending number. E.g. 1997 -> 7 -> the 8th -> FIRE
+     *
+     * @return array<int, Element>
+     */
+    public static function index(): array
+    {
+        return [
+            self::METAL,
+            self::METAL,
+            self::WATER,
+            self::WATER,
+            self::WOOD,
+            self::WOOD,
+            self::FIRE,
+            self::FIRE,
+            self::EARTH,
+            self::EARTH,
+        ];
     }
 
     /**
@@ -39,33 +71,14 @@ enum Element: string
     {
         $year = $year instanceof Year ? $year->year : $year;
 
-        NewYears::validate($year);
-
-        $steps = [];
-
-        foreach (self::ordered() as $element) {
-            $steps[] = $element;
-            $steps[] = $element;
-        }
-
-        /** @var array<int, Element> $steps */
-
-        // Offset from available start
-        $year = $year - NewYears::MIN;
+        Constants::validate($year);
 
         /**
-         * Every 10 year it cycles?
+         * @var int $index (0-9)
          */
-        $year = $year % 10;
-        /**
-         * @var int $year (0-9)
-         */
+        $index = $year % 10;
 
-        if (! isset($steps[$year])) {
-            throw UnsupportedZodiacDateException::unexpected('Cannot determine element from year');
-        }
-
-        return $steps[$year];
+        return self::index()[$index];
     }
 
     /**

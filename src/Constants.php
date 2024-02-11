@@ -5,12 +5,12 @@ namespace BradieTilley\Zodiac;
 use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use DateTimeInterface;
 
-class NewYears
+class Constants
 {
     /**
      * Date of Chinese New Year(s)
      */
-    public const THRESHOLDS = [
+    public const NEW_YEAR_THRESHOLDS = [
         /**
          * This source provides the most amount of data that I've come across
          * which matches the Hong Kong Observatory's dates for the ~100 years
@@ -1021,9 +1021,30 @@ class NewYears
         2644 => '2644-01-31',
     ];
 
-    public const MIN = 1648;
+    /**
+     * The first Gregorian calendar year that can be queried with
+     * certainty. For example when querying 1645-01-27 we know it
+     * lands in the the year 1644, but with the year 1644-01-27
+     * we don't know, so we won't perform the lookup.
+     */
+    public const MIN = 1645;
 
+    /**
+     * The last Gregorian calendar year that can be queried with
+     * certainty. For example when querying 2644-01-31 we know it
+     * lands in the the year 1644, but with the year 1645-01-31
+     * we don't know, so we won't perform the lookup.
+     */
     public const MAX = 2644;
+
+    /**
+     * Every 12 years the cycle for Signs repeats. Given the statement
+     * "the cycle traditionally starts with the Rat" (which may or may
+     * not be factually correct), we'll start with the Rat for all of
+     * the cycles during calculation. So "($year - 4) % 12 = $index",
+     * where the "$index" is 0-11 representing the 1st to 12th sign.
+     */
+    public const CYCLE_START_YEAR = 4;
 
     /**
      * Validate that we have the answers for this given date

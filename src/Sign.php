@@ -2,7 +2,6 @@
 
 namespace BradieTilley\Zodiac;
 
-use BradieTilley\Zodiac\Exception\UnsupportedZodiacDateException;
 use DateTimeInterface;
 use Illuminate\Support\Collection;
 
@@ -24,11 +23,11 @@ enum Sign: string
     /**
      * Get all signs in the order the occur
      *
-     * @return Collection<int, Sign>
+     * @return array<int, Sign>
      */
-    public static function ordered(): Collection
+    public static function sequence(): array
     {
-        return Collection::make([
+        return [
             self::RAT,
             self::OX,
             self::TIGER,
@@ -41,7 +40,17 @@ enum Sign: string
             self::ROOSTER,
             self::DOG,
             self::PIG,
-        ]);
+        ];
+    }
+
+    /**
+     * Get all signs in the order the occur
+     *
+     * @return Collection<int, Sign>
+     */
+    public static function ordered(): Collection
+    {
+        return Collection::make(self::sequence());
     }
 
     /**
@@ -51,26 +60,17 @@ enum Sign: string
     {
         $year = $year instanceof Year ? $year->year : $year;
 
-        NewYears::validate($year);
-
-        $steps = self::ordered()->all();
+        Constants::validate($year);
 
         // Offset from available start
-        $yearRelative = $year - NewYears::MIN;
+        $years = $year - Constants::CYCLE_START_YEAR;
 
         /**
-         * Every 12 year it cycles
+         * @var int $index (0-11)
          */
-        $yearMod = $yearRelative % 12;
-        /**
-         * @var int $year (0-11)
-         */
+        $index = $years % 12;
 
-        if (! isset($steps[$yearMod])) {
-            throw UnsupportedZodiacDateException::unexpected('Cannot determine sign from year');
-        }
-
-        return $steps[$yearMod];
+        return self::sequence()[$index];
     }
 
     /**

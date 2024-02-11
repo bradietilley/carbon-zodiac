@@ -20,10 +20,10 @@ class Year
      */
     public static function fromDate(DateTimeInterface $date): Year
     {
-        NewYears::validate($date);
+        Constants::validate($date);
 
         $year = (int) $date->format('Y');
-        $threshold = NewYears::THRESHOLDS[$year];
+        $threshold = Constants::NEW_YEAR_THRESHOLDS[$year];
         $year = ($date->format('Y-m-d') < $threshold) ? $year - 1 : $year;
 
         return self::fromYear($year);
@@ -36,11 +36,11 @@ class Year
      */
     public static function fromYear(int $year): Year
     {
-        NewYears::validate($year);
+        Constants::validate($year);
 
         return new Year(
             $year,
-            CarbonImmutable::parse(NewYears::THRESHOLDS[$year]),
+            CarbonImmutable::parse(Constants::NEW_YEAR_THRESHOLDS[$year]),
         );
     }
 
@@ -87,6 +87,7 @@ class Year
             'year' => $this->year,
             'start' => $this->date->toDateString(),
             'end' =>  $this->next()->date->subDay()->toDateString(),
+            'yin_yang' =>  $this->yinYang()->toArray(),
         ];
     }
 

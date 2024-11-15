@@ -243,7 +243,7 @@ This refers to an Element's season, direction, fixed element, trine, etc. This d
 
 ## License
 
-MIT... or whatever is the "use it and have fun without needing to worry about anything" license is.
+MIT... or whatever the "use it and have fun without needing to worry about anything" license is.
 
 If you use it and are happy to share your project name/URL, feel free to mention it in a PR and add it below or something.
 

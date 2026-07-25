@@ -1,21 +1,31 @@
 {
     "name": "bradietilley/carbon-zodiac",
-    "description": "A Zodiac Carbon package",
+    "description": "Chinese zodiac helpers for the Carbon date library",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Bradie Tilley",
+            "homepage": "https://github.com/bradietilley",
+            "email": "bradietilley@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "BradieTilley\\Zodiac\\": "src/"
         }
     },
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
+        "php": "^8.3",
+        "nesbot/carbon": ">=2.0",
         "illuminate/support": ">=10.0"
     },
     "require-dev": {
-        "pestphp/pest": "^2.0",
+        "pestphp/pest": "^2.0|^3.0",
         "laravel/pint": "^1.10",
-        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan": "^1.10|^2.0",
         "symfony/var-dumper": ">=5.0"
     },
     "config": {

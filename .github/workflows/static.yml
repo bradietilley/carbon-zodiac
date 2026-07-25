@@ -10,21 +10,18 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2.37.1
+        uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.2
+          php-version: 8.3
           extensions: zip
           tools: composer
           coverage: none
 
       - name: Install PHP dependencies
-        uses: ramsey/composer-install@v1
-        with:
-          dependency-versions: highest
-          composer-options: "--prefer-dist"
+        run: composer update --no-interaction --prefer-dist --no-progress --ansi
 
       - name: Run Pint
         run: vendor/bin/pint --test --ansi
@@ -40,12 +37,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2.37.1
+        uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.2
+          php-version: 8.3
           tools: composer
           coverage: none
 

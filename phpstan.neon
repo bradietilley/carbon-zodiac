@@ -1,16 +1,4 @@
-includes:
-
 parameters:
-
+    level: 9
     paths:
         - src
-
-    # The level 9 is the highest level
-    level: 9
-
-    ignoreErrors:
-
-    excludePaths:
-
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false

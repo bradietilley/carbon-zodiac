@@ -1,4 +1,5 @@
 parameters:
-    level: 9
+    level: max
     paths:
         - src
+    reportUnmatchedIgnoredErrors: false

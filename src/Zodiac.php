@@ -24,36 +24,36 @@ class Zodiac
     {
         if (! $class::hasMacro('zodiacYear')) {
             $class::macro('zodiacYear', function (): Year {
-                $context = $this;
-                /** @var Carbon|CarbonImmutable $context */
+                $context = $this; // @phpstan-ignore-line
 
+                /** @var Carbon|CarbonImmutable $context */
                 return Zodiac::yearFromDate($context);
             });
         }
 
         if (! $class::hasMacro('zodiacElement')) {
             $class::macro('zodiacElement', function (): Element {
-                $context = $this;
-                /** @var Carbon|CarbonImmutable $context */
+                $context = $this; // @phpstan-ignore-line
 
+                /** @var Carbon|CarbonImmutable $context */
                 return Zodiac::elementFromDate($context);
             });
         }
 
         if (! $class::hasMacro('zodiacSign')) {
             $class::macro('zodiacSign', function (): Sign {
-                $context = $this;
-                /** @var Carbon|CarbonImmutable $context */
+                $context = $this; // @phpstan-ignore-line
 
+                /** @var Carbon|CarbonImmutable $context */
                 return Zodiac::signFromDate($context);
             });
         }
 
         if (! $class::hasMacro('zodiac')) {
             $class::macro('zodiac', function (): ZodiacResult {
-                $context = $this;
-                /** @var Carbon|CarbonImmutable $context */
+                $context = $this; // @phpstan-ignore-line
 
+                /** @var Carbon|CarbonImmutable $context */
                 return Zodiac::fromDate($context);
             });
         }

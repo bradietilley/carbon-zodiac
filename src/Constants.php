@@ -1023,17 +1023,17 @@ class Constants
 
     /**
      * The first Gregorian calendar year that can be queried with
-     * certainty. For example when querying 1645-01-27 we know it
-     * lands in the the year 1644, but with the year 1644-01-27
-     * we don't know, so we won't perform the lookup.
+     * certainty. Set one year after the earliest threshold so dates
+     * before that year's New Year cannot resolve into an unsupported
+     * prior lunar year (e.g. early 1646 → 1645 is rejected).
      */
-    public const MIN = 1645;
+    public const MIN = 1646;
 
     /**
      * The last Gregorian calendar year that can be queried with
      * certainty. For example when querying 2644-01-31 we know it
-     * lands in the the year 1644, but with the year 1645-01-31
-     * we don't know, so we won't perform the lookup.
+     * lands in the year 2643 when before New Year, but years beyond
+     * 2644 have no threshold data.
      */
     public const MAX = 2644;
 

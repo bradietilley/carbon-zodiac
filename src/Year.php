@@ -30,7 +30,7 @@ class Year
     }
 
     /**
-     * Convert a given zodiac year to an Element
+     * Convert a given zodiac year to a Year
      *
      * @throws UnsupportedZodiacDateException
      */
@@ -80,14 +80,19 @@ class Year
 
     /**
      * Compile this Year to array form
+     *
+     * @return array{year: int, start: string, end: string, yin_yang: array{value: string, label: string, color: string}}
+     *
+     * @throws UnsupportedZodiacDateException if the end date cannot be
+     *                                        determined (e.g. at MAX year)
      */
     public function toArray(): array
     {
         return [
             'year' => $this->year,
             'start' => $this->date->toDateString(),
-            'end' =>  $this->next()->date->subDay()->toDateString(),
-            'yin_yang' =>  $this->yinYang()->toArray(),
+            'end' => $this->next()->date->subDay()->toDateString(),
+            'yin_yang' => $this->yinYang()->toArray(),
         ];
     }
 

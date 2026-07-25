@@ -64,10 +64,6 @@ enum Sign: string
 
         // Offset from available start
         $years = $year - Constants::CYCLE_START_YEAR;
-
-        /**
-         * @var int $index (0-11)
-         */
         $index = $years % 12;
 
         return self::sequence()[$index];
@@ -245,6 +241,19 @@ enum Sign: string
 
     /**
      * Compile this Sign to array form
+     *
+     * @return array{
+     *     value: string,
+     *     label: string,
+     *     data: array{
+     *         yin_yang: array{value: string, label: string, color: string},
+     *         direction: array{value: string, label: string, degrees: int, quadrant: string, cardinal_direction: array{value: string, label: string}},
+     *         season: string,
+     *         fixed_element: array{value: string, label: string},
+     *         trine: int,
+     *         symbols: array{traditional: string, simplified: string}
+     *     }
+     * }
      */
     public function toArray(): array
     {

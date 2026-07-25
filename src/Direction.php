@@ -53,24 +53,27 @@ enum Direction: string
         };
     }
 
+    /**
+     * @deprecated Use {@see self::cardinalDirection()} instead
+     */
     public function quadrant(): string
     {
+        return $this->cardinalDirection()->label();
+    }
+
+    public function cardinalDirection(): CardinalDirection
+    {
         return match ($this) {
-            self::NORTH => 'North',
-            self::NORTHNORTHEAST => 'North',
-            self::EASTNORTHEAST => 'East',
-            self::EAST => 'East',
-            self::EASTSOUTHEAST => 'East',
-            self::SOUTHSOUTHEAST => 'South',
-            self::SOUTH => 'South',
-            self::SOUTHSOUTHWEST => 'South',
-            self::WESTSOUTHWEST => 'West',
-            self::WEST => 'West',
-            self::WESTNORTHWEST => 'West',
-            self::NORTHNORTHWEST => 'North',
+            self::NORTH, self::NORTHNORTHEAST, self::NORTHNORTHWEST => CardinalDirection::NORTH,
+            self::EASTNORTHEAST, self::EAST, self::EASTSOUTHEAST => CardinalDirection::EAST,
+            self::SOUTHSOUTHEAST, self::SOUTH, self::SOUTHSOUTHWEST => CardinalDirection::SOUTH,
+            self::WESTSOUTHWEST, self::WEST, self::WESTNORTHWEST => CardinalDirection::WEST,
         };
     }
 
+    /**
+     * @return array{value: string, label: string, degrees: int, quadrant: string, cardinal_direction: array{value: string, label: string}}
+     */
     public function toArray(): array
     {
         return [
@@ -78,6 +81,7 @@ enum Direction: string
             'label' => $this->label(),
             'degrees' => $this->degrees(),
             'quadrant' => $this->quadrant(),
+            'cardinal_direction' => $this->cardinalDirection()->toArray(),
         ];
     }
 }

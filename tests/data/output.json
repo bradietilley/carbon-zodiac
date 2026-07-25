@@ -27,7 +27,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -70,7 +74,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -113,7 +121,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -156,7 +168,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -199,7 +215,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -242,7 +262,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -285,7 +309,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -328,7 +356,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -371,7 +403,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -414,7 +450,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -457,7 +497,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -500,7 +544,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -543,7 +591,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -586,7 +638,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -629,7 +685,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -672,7 +732,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -715,7 +779,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -758,7 +826,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -801,7 +873,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -844,7 +920,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -887,7 +967,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -930,7 +1014,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -973,7 +1061,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -1016,7 +1108,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -1059,7 +1155,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -1102,7 +1202,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -1145,7 +1249,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -1188,7 +1296,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -1231,7 +1343,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -1274,7 +1390,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -1317,7 +1437,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -1360,7 +1484,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -1403,7 +1531,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -1446,7 +1578,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -1489,7 +1625,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -1532,7 +1672,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -1575,7 +1719,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -1618,7 +1766,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -1661,7 +1813,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -1704,7 +1860,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -1747,7 +1907,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -1790,7 +1954,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -1833,7 +2001,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -1876,7 +2048,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -1919,7 +2095,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -1962,7 +2142,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -2005,7 +2189,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -2048,7 +2236,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -2091,7 +2283,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -2134,7 +2330,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -2177,7 +2377,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -2220,7 +2424,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -2263,7 +2471,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -2306,7 +2518,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -2349,7 +2565,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -2392,7 +2612,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -2435,7 +2659,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -2478,7 +2706,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -2521,7 +2753,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -2564,7 +2800,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -2607,7 +2847,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -2650,7 +2894,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -2693,7 +2941,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -2736,7 +2988,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -2779,7 +3035,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -2822,7 +3082,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -2865,7 +3129,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -2908,7 +3176,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -2951,7 +3223,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -2994,7 +3270,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -3037,7 +3317,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -3080,7 +3364,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -3123,7 +3411,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -3166,7 +3458,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -3209,7 +3505,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -3252,7 +3552,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -3295,7 +3599,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -3338,7 +3646,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -3381,7 +3693,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -3424,7 +3740,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -3467,7 +3787,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -3510,7 +3834,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -3553,7 +3881,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -3596,7 +3928,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -3639,7 +3975,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -3682,7 +4022,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -3725,7 +4069,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -3768,7 +4116,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -3811,7 +4163,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -3854,7 +4210,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -3897,7 +4257,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -3940,7 +4304,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -3983,7 +4351,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -4026,7 +4398,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -4069,7 +4445,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -4112,7 +4492,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -4155,7 +4539,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -4198,7 +4586,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -4241,7 +4633,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -4284,7 +4680,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -4327,7 +4727,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -4370,7 +4774,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -4413,7 +4821,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -4456,7 +4868,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -4499,7 +4915,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -4542,7 +4962,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -4585,7 +5009,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -4628,7 +5056,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -4671,7 +5103,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -4714,7 +5150,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -4757,7 +5197,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -4800,7 +5244,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -4843,7 +5291,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -4886,7 +5338,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -4929,7 +5385,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -4972,7 +5432,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -5015,7 +5479,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -5058,7 +5526,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -5101,7 +5573,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -5144,7 +5620,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -5187,7 +5667,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -5230,7 +5714,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -5273,7 +5761,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -5316,7 +5808,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -5359,7 +5855,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -5402,7 +5902,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -5445,7 +5949,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -5488,7 +5996,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -5531,7 +6043,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -5574,7 +6090,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -5617,7 +6137,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -5660,7 +6184,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -5703,7 +6231,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -5746,7 +6278,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -5789,7 +6325,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -5832,7 +6372,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -5875,7 +6419,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -5918,7 +6466,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -5961,7 +6513,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -6004,7 +6560,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -6047,7 +6607,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -6090,7 +6654,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -6133,7 +6701,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -6176,7 +6748,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -6219,7 +6795,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -6262,7 +6842,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -6305,7 +6889,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -6348,7 +6936,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -6391,7 +6983,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -6434,7 +7030,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -6477,7 +7077,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -6520,7 +7124,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -6563,7 +7171,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -6606,7 +7218,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -6649,7 +7265,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -6692,7 +7312,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -6735,7 +7359,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -6778,7 +7406,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -6821,7 +7453,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -6864,7 +7500,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -6907,7 +7547,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -6950,7 +7594,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -6993,7 +7641,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -7036,7 +7688,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -7079,7 +7735,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -7122,7 +7782,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -7165,7 +7829,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -7208,7 +7876,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -7251,7 +7923,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -7294,7 +7970,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -7337,7 +8017,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -7380,7 +8064,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -7423,7 +8111,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -7466,7 +8158,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -7509,7 +8205,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -7552,7 +8252,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -7595,7 +8299,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -7638,7 +8346,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -7681,7 +8393,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -7724,7 +8440,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -7767,7 +8487,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -7810,7 +8534,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -7853,7 +8581,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -7896,7 +8628,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -7939,7 +8675,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -7982,7 +8722,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -8025,7 +8769,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -8068,7 +8816,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -8111,7 +8863,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {
@@ -8154,7 +8910,11 @@
                     "value": "W",
                     "label": "West",
                     "degrees": 270,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Mid-Autumn",
                 "fixed_element": {
@@ -8197,7 +8957,11 @@
                     "value": "WNW",
                     "label": "West-Northwest",
                     "degrees": 300,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Late Autumn",
                 "fixed_element": {
@@ -8240,7 +9004,11 @@
                     "value": "NNW",
                     "label": "North-Northwest",
                     "degrees": 330,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Early Winter",
                 "fixed_element": {
@@ -8283,7 +9051,11 @@
                     "value": "N",
                     "label": "North",
                     "degrees": 0,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Mid-Winter",
                 "fixed_element": {
@@ -8326,7 +9098,11 @@
                     "value": "NNE",
                     "label": "North-Northeast",
                     "degrees": 30,
-                    "quadrant": "North"
+                    "quadrant": "North",
+                    "cardinal_direction": {
+                        "value": "north",
+                        "label": "North"
+                    }
                 },
                 "season": "Late Winter",
                 "fixed_element": {
@@ -8369,7 +9145,11 @@
                     "value": "ENE",
                     "label": "East-Northeast",
                     "degrees": 60,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Early Spring",
                 "fixed_element": {
@@ -8412,7 +9192,11 @@
                     "value": "E",
                     "label": "East",
                     "degrees": 90,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Mid-Spring",
                 "fixed_element": {
@@ -8455,7 +9239,11 @@
                     "value": "ESE",
                     "label": "East-Southeast",
                     "degrees": 120,
-                    "quadrant": "East"
+                    "quadrant": "East",
+                    "cardinal_direction": {
+                        "value": "east",
+                        "label": "East"
+                    }
                 },
                 "season": "Late Spring",
                 "fixed_element": {
@@ -8498,7 +9286,11 @@
                     "value": "SSE",
                     "label": "South-Southeast",
                     "degrees": 150,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Early Summer",
                 "fixed_element": {
@@ -8541,7 +9333,11 @@
                     "value": "S",
                     "label": "South",
                     "degrees": 180,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Mid-Summer",
                 "fixed_element": {
@@ -8584,7 +9380,11 @@
                     "value": "SSW",
                     "label": "South-Southwest",
                     "degrees": 210,
-                    "quadrant": "South"
+                    "quadrant": "South",
+                    "cardinal_direction": {
+                        "value": "south",
+                        "label": "South"
+                    }
                 },
                 "season": "Late Summer",
                 "fixed_element": {
@@ -8627,7 +9427,11 @@
                     "value": "WSW",
                     "label": "West-Southwest",
                     "degrees": 240,
-                    "quadrant": "West"
+                    "quadrant": "West",
+                    "cardinal_direction": {
+                        "value": "west",
+                        "label": "West"
+                    }
                 },
                 "season": "Early Autumn",
                 "fixed_element": {

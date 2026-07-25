@@ -21,7 +21,9 @@ enum YinYang: string
     }
 
     /**
-     * Compile this Sign to array form
+     * Compile this YinYang to array form
+     *
+     * @return array{value: string, label: string, color: string}
      */
     public function toArray(): array
     {

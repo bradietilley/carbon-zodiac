@@ -15,7 +15,9 @@ enum Element: string
     case WATER = 'water';
 
     /**
-     * Get all elements in the order the occur
+     * Get all elements in the order they occur in {@see self::sequence()}
+     *
+     * @deprecated Use `array_values(array_unique(Element::index()))` instead
      *
      * @return array<int, Element>
      */
@@ -31,7 +33,9 @@ enum Element: string
     }
 
     /**
-     * Get all elements in the order the occur
+     * Get all elements in the order they occur in {@see self::sequence()}
+     *
+     * @deprecated Use `Collection::make(array_values(array_unique(Element::index())))` instead
      *
      * @return Collection<int, Element>
      */
@@ -73,16 +77,13 @@ enum Element: string
 
         Constants::validate($year);
 
-        /**
-         * @var int $index (0-9)
-         */
         $index = $year % 10;
 
         return self::index()[$index];
     }
 
     /**
-     * Convert any given date to a Sign
+     * Convert any given date to an Element
      */
     public static function fromDate(DateTimeInterface $date): Element
     {
@@ -99,6 +100,8 @@ enum Element: string
 
     /**
      * Compile this Element to array form
+     *
+     * @return array{value: string, label: string}
      */
     public function toArray(): array
     {
